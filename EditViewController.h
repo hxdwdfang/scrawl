@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  EditViewController.h
 //  scrawl
 //
 //  Created by 王定方 on 15/7/9.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface EditViewController : UIViewController
 
 @end
-

@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		840D28B21B4E636800ABA00C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D28B11B4E636800ABA00C /* main.m */; };
 		840D28B51B4E636800ABA00C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D28B41B4E636800ABA00C /* AppDelegate.m */; };
-		840D28B81B4E636800ABA00C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D28B71B4E636800ABA00C /* FirstViewController.m */; };
-		840D28BB1B4E636800ABA00C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D28BA1B4E636800ABA00C /* SecondViewController.m */; };
-		840D28BE1B4E636800ABA00C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840D28BC1B4E636800ABA00C /* Main.storyboard */; };
 		840D28C01B4E636800ABA00C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840D28BF1B4E636800ABA00C /* Images.xcassets */; };
 		840D28C31B4E636800ABA00C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840D28C11B4E636800ABA00C /* LaunchScreen.xib */; };
 		840D28CF1B4E636800ABA00C /* scrawlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D28CE1B4E636800ABA00C /* scrawlTests.m */; };
+		840D28DB1B4E646D00ABA00C /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D28D91B4E646D00ABA00C /* EditViewController.m */; };
+		840D28DC1B4E646D00ABA00C /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840D28DA1B4E646D00ABA00C /* EditViewController.xib */; };
+		840D28DF1B4E669A00ABA00C /* ScrawlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D28DE1B4E669A00ABA00C /* ScrawlView.m */; };
+		840D28E21B4F726B00ABA00C /* ScrawlControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D28E11B4F726B00ABA00C /* ScrawlControlView.m */; };
+		840D28E41B4F727B00ABA00C /* ScrawlControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840D28E31B4F727B00ABA00C /* ScrawlControlView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +35,19 @@
 		840D28B11B4E636800ABA00C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		840D28B31B4E636800ABA00C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		840D28B41B4E636800ABA00C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		840D28B61B4E636800ABA00C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		840D28B71B4E636800ABA00C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		840D28B91B4E636800ABA00C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		840D28BA1B4E636800ABA00C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		840D28BD1B4E636800ABA00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840D28BF1B4E636800ABA00C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		840D28C21B4E636800ABA00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		840D28C81B4E636800ABA00C /* scrawlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrawlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840D28CD1B4E636800ABA00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840D28CE1B4E636800ABA00C /* scrawlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scrawlTests.m; sourceTree = "<group>"; };
+		840D28D81B4E646D00ABA00C /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		840D28D91B4E646D00ABA00C /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		840D28DA1B4E646D00ABA00C /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+		840D28DD1B4E669A00ABA00C /* ScrawlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrawlView.h; sourceTree = "<group>"; };
+		840D28DE1B4E669A00ABA00C /* ScrawlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrawlView.m; sourceTree = "<group>"; };
+		840D28E01B4F726B00ABA00C /* ScrawlControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrawlControlView.h; sourceTree = "<group>"; };
+		840D28E11B4F726B00ABA00C /* ScrawlControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrawlControlView.m; sourceTree = "<group>"; };
+		840D28E31B4F727B00ABA00C /* ScrawlControlView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrawlControlView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,14 @@
 		840D28A31B4E636800ABA00C = {
 			isa = PBXGroup;
 			children = (
+				840D28E01B4F726B00ABA00C /* ScrawlControlView.h */,
+				840D28E11B4F726B00ABA00C /* ScrawlControlView.m */,
+				840D28E31B4F727B00ABA00C /* ScrawlControlView.xib */,
+				840D28DD1B4E669A00ABA00C /* ScrawlView.h */,
+				840D28DE1B4E669A00ABA00C /* ScrawlView.m */,
+				840D28D81B4E646D00ABA00C /* EditViewController.h */,
+				840D28D91B4E646D00ABA00C /* EditViewController.m */,
+				840D28DA1B4E646D00ABA00C /* EditViewController.xib */,
 				840D28AE1B4E636800ABA00C /* scrawl */,
 				840D28CB1B4E636800ABA00C /* scrawlTests */,
 				840D28AD1B4E636800ABA00C /* Products */,
@@ -86,11 +99,6 @@
 			children = (
 				840D28B31B4E636800ABA00C /* AppDelegate.h */,
 				840D28B41B4E636800ABA00C /* AppDelegate.m */,
-				840D28B61B4E636800ABA00C /* FirstViewController.h */,
-				840D28B71B4E636800ABA00C /* FirstViewController.m */,
-				840D28B91B4E636800ABA00C /* SecondViewController.h */,
-				840D28BA1B4E636800ABA00C /* SecondViewController.m */,
-				840D28BC1B4E636800ABA00C /* Main.storyboard */,
 				840D28BF1B4E636800ABA00C /* Images.xcassets */,
 				840D28C11B4E636800ABA00C /* LaunchScreen.xib */,
 				840D28AF1B4E636800ABA00C /* Supporting Files */,
@@ -204,8 +212,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840D28BE1B4E636800ABA00C /* Main.storyboard in Resources */,
+				840D28DC1B4E646D00ABA00C /* EditViewController.xib in Resources */,
 				840D28C31B4E636800ABA00C /* LaunchScreen.xib in Resources */,
+				840D28E41B4F727B00ABA00C /* ScrawlControlView.xib in Resources */,
 				840D28C01B4E636800ABA00C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,10 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840D28BB1B4E636800ABA00C /* SecondViewController.m in Sources */,
+				840D28DF1B4E669A00ABA00C /* ScrawlView.m in Sources */,
 				840D28B51B4E636800ABA00C /* AppDelegate.m in Sources */,
-				840D28B81B4E636800ABA00C /* FirstViewController.m in Sources */,
+				840D28DB1B4E646D00ABA00C /* EditViewController.m in Sources */,
 				840D28B21B4E636800ABA00C /* main.m in Sources */,
+				840D28E21B4F726B00ABA00C /* ScrawlControlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +260,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		840D28BC1B4E636800ABA00C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				840D28BD1B4E636800ABA00C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		840D28C11B4E636800ABA00C /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

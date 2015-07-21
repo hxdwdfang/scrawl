@@ -8,15 +8,24 @@
 
 #import "AppDelegate.h"
 
+#import "EditViewController.h"
+
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    EditViewController *edit = [[EditViewController alloc] init];
+    self.window.rootViewController = edit;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
